@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "doctorwhomod:block/hell_bent_roundel_door",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "doctorwhomod:block/hell_bent_roundel_door"
+        },
+        "facing=south": {
+            "model": "doctorwhomod:block/hell_bent_roundel_door",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "doctorwhomod:block/hell_bent_roundel_door",
+            "y": 270
+        }
+    }
+}
