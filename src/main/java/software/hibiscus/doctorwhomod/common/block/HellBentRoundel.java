@@ -1,4 +1,4 @@
-package software.hibiscus.doctorwhomod.block;
+package software.hibiscus.doctorwhomod.common.block;
 
 import javax.annotation.Nullable;
 
@@ -9,25 +9,22 @@ import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
-import net.minecraft.world.level.block.state.properties.BooleanProperty;
 import net.minecraft.world.level.block.state.properties.DirectionProperty;
 import net.minecraft.world.level.material.MapColor;
 
-public class HellBentRoundelDoor extends Block {
+public class HellBentRoundel extends Block {
     public static final DirectionProperty FACING = BlockStateProperties.FACING;
-    public static final BooleanProperty EYE = BlockStateProperties.EYE;
 
-    public HellBentRoundelDoor() {
+    public HellBentRoundel() {
         super(BlockBehaviour.Properties.of().mapColor(MapColor.STONE));
 
         registerDefaultState(stateDefinition.any()
-                .setValue(FACING, Direction.NORTH)
-                .setValue(EYE, false));
+                .setValue(FACING, Direction.NORTH));
     }
 
     @Override
     protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> pBuilder) {
-        pBuilder.add(FACING, EYE);
+        pBuilder.add(FACING);
     }
 
     @Override

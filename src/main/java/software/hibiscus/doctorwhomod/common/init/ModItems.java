@@ -4,7 +4,7 @@
  * which can be found in the root directory of this project.
  */
 
-package software.hibiscus.doctorwhomod.item;
+package software.hibiscus.doctorwhomod.common.init;
 
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredRegister;

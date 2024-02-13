@@ -16,10 +16,9 @@ import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
 import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
-
-import software.hibiscus.doctorwhomod.block.ModBlocks;
-import software.hibiscus.doctorwhomod.item.ModCreativeModeTabs;
-import software.hibiscus.doctorwhomod.item.ModItems;
+import software.hibiscus.doctorwhomod.common.init.ModBlocks;
+import software.hibiscus.doctorwhomod.common.init.ModCreativeModeTabs;
+import software.hibiscus.doctorwhomod.common.init.ModItems;
 
 import org.slf4j.Logger;
 

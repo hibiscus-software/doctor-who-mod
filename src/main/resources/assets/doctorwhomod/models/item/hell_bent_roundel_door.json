@@ -1,3 +1,33 @@
 {
-    "parent": "doctorwhomod:block/hell_bent_roundel_door"
+    "parent": "doctorwhomod:block/hell_bent_roundel_door",
+    "display": {
+        "thirdperson_righthand": {
+            "rotation": [0, 180, 0],
+			"scale": [0.25, 0.25, 0.25]
+        },
+        "thirdperson_lefthand": {
+            "rotation": [0, 180, 0],
+			"scale": [0.25, 0.25, 0.25]
+        },
+        "firstperson_righthand": {
+            "rotation": [0, 180, 0],
+			"scale": [0.25, 0.25, 0.25]
+        },
+        "firstperson_lefthand": {
+            "rotation": [0, 180, 0],
+			"scale": [0.25, 0.25, 0.25]
+        },
+        "gui": {
+            "rotation": [0, 180, 0],
+			"scale": [0.25, 0.25, 0.25]
+		},
+        "ground": {
+            "rotation": [0, 180, 0],
+            "scale": [0.25, 0.25, 0.25]
+        },
+        "fixed": {
+            "rotation": [0, 180, 0],
+            "scale": [0.25, 0.25, 0.25]
+        }
+    }
 }

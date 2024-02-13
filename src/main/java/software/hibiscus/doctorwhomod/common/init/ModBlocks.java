@@ -4,7 +4,7 @@
  * which can be found in the root directory of this project.
  */
 
-package software.hibiscus.doctorwhomod.block;
+package software.hibiscus.doctorwhomod.common.init;
 
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.level.block.Block;
@@ -15,7 +15,8 @@ import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
 import software.hibiscus.doctorwhomod.DoctorWhoMod;
-import software.hibiscus.doctorwhomod.item.ModItems;
+import software.hibiscus.doctorwhomod.common.block.HellBentRoundel;
+import software.hibiscus.doctorwhomod.common.block.HellBentRoundelDoor;
 
 import java.util.function.Supplier;
 

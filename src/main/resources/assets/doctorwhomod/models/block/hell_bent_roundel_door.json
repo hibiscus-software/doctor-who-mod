@@ -1,6 +1,5 @@
 {
-  "parent": "minecraft:block/orientable",
-  "loader": "forge:obj",
+  "loader": "neoforge:obj",
   "flip_v": true,
   "model": "doctorwhomod:models/block/hell_bent_roundel_door.obj",
   "textures": {

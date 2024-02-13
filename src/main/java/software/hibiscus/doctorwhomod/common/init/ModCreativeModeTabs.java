@@ -4,7 +4,7 @@
  * which can be found in the root directory of this project.
  */
 
-package software.hibiscus.doctorwhomod.item;
+package software.hibiscus.doctorwhomod.common.init;
 
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
@@ -15,7 +15,6 @@ import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
 import software.hibiscus.doctorwhomod.DoctorWhoMod;
-import software.hibiscus.doctorwhomod.block.ModBlocks;
 
 import java.util.function.Supplier;
 
