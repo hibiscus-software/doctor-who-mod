@@ -2,8 +2,7 @@
 	"parent": "minecraft:block/orientable",
 	"textures": {
 		"main": "doctorwhomod:block/hell_bent_roundel",
-		"alt": "doctorwhomod:block/hell_bent_roundel_alt",
-		"particle": "hell_bent_roundel"
+		"particle": "doctorwhomod:block/hell_bent_roundel"
 	},
     "elements": [
 		{
@@ -11,9 +10,9 @@
 			"to": [16, 16, 16],
 			"faces": {
 				"north": {"uv": [0, 0, 16, 16], "texture": "#main"},
-				"east": {"uv": [0, 0, 16, 16], "texture": "#alt"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#main"},
 				"south": {"uv": [0, 0, 16, 16], "texture": "#main"},
-				"west": {"uv": [0, 0, 16, 16], "texture": "#alt"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#main"},
 				"up": {"uv": [0, 0, 16, 16], "texture": "#main"},
 				"down": {"uv": [0, 0, 16, 16], "texture": "#main"}
 			}

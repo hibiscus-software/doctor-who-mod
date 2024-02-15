@@ -1,4 +1,4 @@
-package software.hibiscus.doctorwhomod.common.block;
+package software.hibiscus.doctorwhomod.common.block.tardis.roundel;
 
 import javax.annotation.Nullable;
 
@@ -41,7 +41,7 @@ public class HellBentRoundelDoor extends Block {
     public VoxelShape getShape(BlockState blockState, BlockGetter blockGetter, BlockPos blockPos,
             CollisionContext collisionContext) {
         return Block.box(
-                16, 0, 0,
+                0, 0, 0,
                 32, 48, 6);
     }
 }

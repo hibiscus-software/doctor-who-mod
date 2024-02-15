@@ -15,16 +15,30 @@ import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
 import software.hibiscus.doctorwhomod.DoctorWhoMod;
-import software.hibiscus.doctorwhomod.common.block.HellBentRoundel;
-import software.hibiscus.doctorwhomod.common.block.HellBentRoundelDoor;
+import software.hibiscus.doctorwhomod.common.block.tardis.roundel.HellBentRoundel;
+import software.hibiscus.doctorwhomod.common.block.tardis.roundel.HellBentRoundelAlt;
+import software.hibiscus.doctorwhomod.common.block.tardis.roundel.HellBentRoundelAltBottom;
+import software.hibiscus.doctorwhomod.common.block.tardis.roundel.HellBentRoundelAltTop;
+import software.hibiscus.doctorwhomod.common.block.tardis.roundel.HellBentRoundelDoor;
 
 import java.util.function.Supplier;
 
 public class ModBlocks {
     private static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(DoctorWhoMod.MOD_ID);
 
+    // Roundel blocks
     public static final DeferredBlock<Block> HELL_BENT_ROUNDEL = registerBlock("hell_bent_roundel",
             HellBentRoundel::new);
+
+    public static final DeferredBlock<Block> HELL_BENT_ROUNDEL_ALT = registerBlock("hell_bent_roundel_alt",
+            HellBentRoundelAlt::new);
+
+    public static final DeferredBlock<Block> HELL_BENT_ROUNDEL_ALT_TOP = registerBlock("hell_bent_roundel_alt_top",
+            HellBentRoundelAltTop::new);
+
+    public static final DeferredBlock<Block> HELL_BENT_ROUNDEL_ALT_BOTTOM = registerBlock(
+            "hell_bent_roundel_alt_bottom",
+            HellBentRoundelAltBottom::new);
 
     public static final DeferredBlock<Block> HELL_BENT_ROUNDEL_DOOR = registerBlock("hell_bent_roundel_door",
             HellBentRoundelDoor::new);

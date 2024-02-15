@@ -27,7 +27,12 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("itemGroup." + DoctorWhoMod.MOD_ID + ".tardis_blocks"))
                     .icon(() -> new ItemStack(ModBlocks.HELL_BENT_ROUNDEL.get()))
                     .displayItems((params, output) -> {
+                        // Roundel blocks
                         output.accept(ModBlocks.HELL_BENT_ROUNDEL.get());
+                        output.accept(ModBlocks.HELL_BENT_ROUNDEL_ALT.get());
+                        output.accept(ModBlocks.HELL_BENT_ROUNDEL_ALT_TOP.get());
+                        output.accept(ModBlocks.HELL_BENT_ROUNDEL_ALT_BOTTOM.get());
+
                         output.accept(ModBlocks.HELL_BENT_ROUNDEL_DOOR.get());
                     })
                     .build());
